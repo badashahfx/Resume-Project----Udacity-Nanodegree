@@ -1,221 +1,252 @@
-body,
-div,
-ul,
-li,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  padding: 0;
-  margin: 0;
-  font-family: "Roboto", sans-serif;
+body, div, ul, li, p, h1, h2, h3, h4, h5, h6 {
+   padding: 0;
+   margin: 0;
+   font-family: "Roboto", sans-serif;
 }
 
 .clear-fix {
-  overflow: auto;
+   overflow: auto;
 }
 
-.education-entry,
-.work-entry,
-.project-entry {
-  padding: 0 5%;
+.education-entry, .work-entry, .project-entry {
+   padding: 0 5%;
 }
 
 h1 {
-  font-size: 40px;
-  color: #f5a623;
-  line-height: 48px;
-  display: inline;
+   font-family: 'Bree Serif', serif;
+   font-size: 40px;
+   color: #04ADE6;
+   line-height: 48px;
+   letter-spacing: 1px;
+   display: inline;
 }
 
 h2 {
-  font-weight: bold;
-  font-size: 24px;
-  color: #999;
-  line-height: 29px;
-  padding: 10px;
+   font-family: 'Bree Serif', serif;
+   font-weight: bold;
+   font-size: 24px;
+   color: #F7CA18;
+   line-height: 29px;
+   padding: 10px;
 }
 
 h3 {
-  font-style: italic;
-  font-size: 20px;
-  color: #000;
-  line-height: 22px;
+   font-style: italic;
+   font-size: 20px;
+   color: #686c71;
+   line-height: 22px;
 }
 
 h4 {
-  font-weight: bold;
-  font-size: 14px;
-  color: #4a4a4a;
-  line-height: 17px;
+   font-weight: bold;
+   font-size: 14px;
+   color: #4a4a4a;
+   line-height: 17px;
 }
 
-h2,
-h3,
-h4,
-h5 {
-  padding: 10px 5%;
-
+h2, h3, h4, h5 {
+   padding: 10px 5%;
 }
 
+body {
+   background: #172128;
+}
 
 .date-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #999;
-  line-height: 16px;
-  float: left;
+   font-style: italic;
+   font-size: 14px;
+   color: #999;
+   line-height: 16px;
+   float: left;
 }
 
 .location-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #999;
-  line-height: 16px;
-  float: right;
-
+   font-style: italic;
+   font-size: 14px;
+   color: #999;
+   line-height: 16px;
+   float: right;
 }
 
 p {
-  font-size: 14px;
-  color: #333;
-  line-height: 21px;
+   font-size: 14px;
+   color: #fff;
+   line-height: 21px;
+}
+
+em {
+   color: #fff;
 }
 
 a {
-  color: #1199c3;
-  text-decoration: none;
-  margin-top: 10px;
-  display: block;
+   color: #04ADE6;
+   text-decoration: none;
+   margin-top: 10px;
+   display: block;
 }
 
 .welcome-message {
-  font-style: italic;
-  font-size: 18px;
-  color: #f3f3f3;
-  line-height: 28px;
+   font-style: italic;
+   font-size: 18px;
+   color: #f3f3f3;
+   line-height: 28px;
+   float: right;
 }
 
 #skills-h3 {
-  color: #f5ae23;
-  display: none;
+   color: #686c71;
+   display: none;
+}
+
+#mapDiv h2 {
+   text-align: center;
 }
 
 .orange {
-  background-color: #f5ae23;
+   background-color: #04ADE6;
 }
 
 .orange-text {
-  color: #f5ae23;
+   color: #F7CA18;
 }
 
 .white-text {
-  font-weight: bold;
-  color: #fff;
+   font-weight: bold;
+   color: #fff;
 }
 
 .gray {
-  background-color: #f3f3f3;
-  padding-bottom: 10px;
-  clear: both;
+   background-color: #f3f3f3;
+   padding-bottom: 10px;
+   clear: both;
 }
 
 .dark-gray {
-  background-color: #4a4a4a;
+   background-color: #293B49;
 }
 
+
 /* TODO: Replace with image later */
+
 #header {
-  background-color: #484848;
+   background: linear-gradient(0deg, rgba(41, 59, 73, 0.8), rgba(41, 59, 73, 0.8)), url("https://mgcreativedesign.files.wordpress.com/2014/11/cropped-cropped-cropped-website-design-background1.png");
+   background-size: cover;
 }
 
 .flex-box {
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 10px;
+   display: -webkit-flex;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding: 10px;
 }
 
 .flex-column {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  padding: 10px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   padding: 10px;
 }
 
 .center-content {
-  padding: 2.5% 5%;
+   padding: 2.5% 5%;
 }
 
 ul {
-  list-style-type: none;
+   list-style-type: none;
 }
 
 .biopic {
-  float: left;
-  padding: 10px;
-  width: 200px;
-  display: none;
+   float: left;
+   padding: 10px;
+   width: 200px;
+   border-radius: 300px;
+   display: none;
 }
 
 img {
-  padding: 10px;
+   padding: 10px;
+   max-width: 200px;
+}
+
+.img-size {
+   width: 32px;
+   float: left;
+   position: relative;
 }
 
 span {
-  padding: 5px;
+   padding: 5px;
+   color: #fff;
 }
 
 #lets-connect {
-  text-align: center;
+   text-align: center;
 }
+
+#workExperience, #education, #projects {
+   width: 70%;
+   margin: 0 auto;
+   padding: 20px 0px;
+   margin-top: 35px;
+   margin-bottom: 20px;
+   background: #293B49;
+   border-left: solid 3px #fff;
+   border-right: solid 3px #fff;
+   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
+}
+
+#topContacts {
+   background: #293B49;
+}
+
 
 /* Media queries to handle various device widths */
 
 @media only screen and (max-width: 1024px) {
-  #lets-connect {
-    margin-top: 5%;
-  }
+   #lets-connect {
+      margin-top: 5%;
+   }
 }
 
 @media only screen and (max-width:900px) {
-  .biopic {
-    width: 175px;
-  }
+   .biopic {
+      width: 175px;
+   }
 }
 
 @media only screen and (max-width: 750px) {
-  #lets-connect {
-    margin-top: 10%;
-  }
-  .biopic {
-    width: 150px;
-  }
-  .welcome-message {
-    display: none;
-  }
+   #lets-connect {
+      margin-top: 10%;
+   }
+   .biopic {
+      width: 150px;
+   }
+   .welcome-message {
+      display: none;
+   }
 }
 
 #map {
-  display: block;
-  height: 100%;
-  margin: 0 5%;
+   display: block;
+   height: 100%;
+   margin: 0;
 }
 
 #mapDiv {
-  height: 400px;
-  width: 100%;
-  padding-bottom: 5%;
+   height: 400px;
+   width: 100%;
+   margin-bottom: 2%;
 }
 
 @media only screen and (min-width: 750px) {
-  #skills-h3,
-  .biopic {
-    display: block;
-  }
+   #skills-h3, .biopic {
+      display: block;
+   }
 }
+
+@media only screen and (min-width: 350px) {
+   .biopic {
+      display: block;
+   }
